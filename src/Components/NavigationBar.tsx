@@ -1,5 +1,5 @@
 import Logo from "../assets/logo/EmbassyLogo.svg"
-import { WebIcon } from "./Icons"
+import { ArrowDown, WebIcon } from "./Icons"
 
 const NavigationBar = () => {
     return (
@@ -15,6 +15,27 @@ const NavigationBar = () => {
                 </div>
                 <div>
                     <a href="" className="px-6 py-2 bg-[#994F06] text-white rounded-full">Contact Us</a>
+                </div>
+            </div>
+            <div className="flex justify-center py-4">
+                <div className="flex items-center gap-4">
+                    <a href="" className="hover:text-[#994F06]">Home</a>
+                    <a href="" className="flex items-center gap-2 hover:text-[#994F06]">
+                        <span>Special Pages</span>
+                        <span><ArrowDown /></span>
+                    </a>
+                    <a href="" className="flex items-center gap-2 hover:text-[#994F06]">
+                        <span>About Kenya</span>
+                        <span><ArrowDown /></span>
+                    </a>
+                    <a href="" className="hover:text-[#994F06]">The Kenyan Government</a>
+                    <a href="" className="hover:text-[#994F06]">Bilateral Relations</a>
+                    <a href="" className="hover:text-[#994F06]">The Embassy</a>
+                    <a href="" className="hover:text-[#994F06]">Consular Section</a>
+                    <a href="" className="flex items-center gap-2 hover:text-[#994F06]">
+                        <span>More</span>
+                        <span><ArrowDown /></span>
+                    </a>
                 </div>
             </div>
         </div>
