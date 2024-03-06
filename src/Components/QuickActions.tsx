@@ -24,7 +24,7 @@ export default QuickActions
 
 export const QuickActionsComponent = () => {
     return (
-        <div className="flex gap-4 py-16">
+        <div className="flex flex-col lg:flex-row gap-4 py-6 lg:py-16">
             <QuickActions image={Foreign} title={"Ministry of Foreign Affairs"} link={""} />
             <QuickActions image={Bussiness} title={"Doing Business with Kenya"} link={""} />
             <QuickActions image={Passport} title={"E-Passport Application"} link={""} />

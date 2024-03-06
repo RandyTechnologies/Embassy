@@ -23,7 +23,7 @@ export const Footer = () => {
                             className="inline-flex items-center"
                         >
 
-                            <img src={Logo} alt="" className="w-36" />
+                            <img src={Logo} alt="" className="lg:w-36" />
                         </a>
                         <p className="text-2xl font-bold text-white">Embassy of Kenya in Germany
                             with accreditation to
