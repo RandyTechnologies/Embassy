@@ -5,6 +5,7 @@ import ETA from "../assets/images/eta.svg"
 import Public from "../assets/images/public-notice/publicnotice.svg"
 import President from "../assets/images/public-notice/presnotice.svg"
 import { NewsComponent } from "../Components/News"
+import { Footer } from "../Components/Footer"
 
 
 const HomePage = () => {
@@ -76,6 +77,9 @@ const HomePage = () => {
                         </div>
                     </div>
                 </div>
+            </section>
+            <section>
+                <Footer />
             </section>
         </div>
     )
