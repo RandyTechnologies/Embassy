@@ -1,4 +1,4 @@
-import NavigationBar from "../Components/NavigationBar"
+import { NavBar } from "../Components/NavigationBar"
 import { QuickActionsComponent } from "../Components/QuickActions"
 import Hero from "../assets/images/Rectangle 1 (1).png"
 import ETA from "../assets/images/eta.svg"
@@ -12,7 +12,7 @@ const HomePage = () => {
     return (
         <div>
             <section>
-                <NavigationBar />
+                <NavBar />
             </section>
             <section>
                 <div className="relative">

@@ -1,5 +1,5 @@
 import { Footer } from "../../Components/Footer"
-import NavigationBar from "../../Components/NavigationBar"
+import { NavBar } from "../../Components/NavigationBar"
 import GeographyImage from "../../assets/images/page-images/Geograpgy (1).png"
 
 import Image1 from "../../assets/images/page-images/images-of-nairobi/Rectangle 298-1.png"
@@ -15,7 +15,7 @@ const GeographyPage = () => {
     return (
         <div>
             <div>
-                <NavigationBar />
+                <NavBar />
             </div>
             <div className="relative">
                 <img src={GeographyImage} alt="" className="-z-10 h-[200px] object-cover lg:h-auto w-full" />

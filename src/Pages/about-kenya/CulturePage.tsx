@@ -1,12 +1,12 @@
 import { Footer } from "../../Components/Footer"
-import NavigationBar from "../../Components/NavigationBar"
+import { NavBar } from "../../Components/NavigationBar"
 import CultureImage from "../../assets/images/page-images/Culture (1).png"
 
 const CulturePage = () => {
     return (
         <div>
             <div>
-                <NavigationBar />
+                <NavBar />
             </div>
             <div className="relative">
                 <img src={CultureImage} alt="" className="-z-10 h-[200px] object-cover lg:h-auto w-full" />

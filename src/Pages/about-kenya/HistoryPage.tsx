@@ -1,12 +1,12 @@
 import { Footer } from "../../Components/Footer"
-import NavigationBar from "../../Components/NavigationBar"
+import { NavBar } from "../../Components/NavigationBar"
 import HistoryImage from "../../assets/images/page-images/History (1).png"
 
 const HistoryPage = () => {
     return (
         <div>
             <div>
-                <NavigationBar />
+                <NavBar />
             </div>
             <div className="relative">
                 <img src={HistoryImage} alt="" className="-z-10 h-[200px] object-cover lg:h-auto w-full" />

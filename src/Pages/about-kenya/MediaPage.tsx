@@ -1,12 +1,12 @@
 import { Footer } from "../../Components/Footer"
-import NavigationBar from "../../Components/NavigationBar"
+import { NavBar } from "../../Components/NavigationBar"
 import MediaImage from "../../assets/images/page-images/Media (1).png"
 
 const MediaPage = () => {
     return (
         <div>
             <div>
-                <NavigationBar />
+                <NavBar />
             </div>
             <div className="relative">
                 <img src={MediaImage} alt="" className="-z-10 h-[200px] object-cover lg:h-auto w-full" />
