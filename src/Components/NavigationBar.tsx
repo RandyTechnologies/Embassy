@@ -7,9 +7,9 @@ const NavigationBar = () => {
             <div className="flex justify-between items-center">
                 <img src={Logo} alt="" className="w-12 lg:w-auto" />
                 <div className="hidden lg:block">
-                    <div className="flex items-center justify-center gap-1">
+                    <div className="flex items-center justify-center gap-1 mb-2">
                         <WebIcon />
-                        <p className="text-sm">Thursday, February 25, 2021</p>
+                        <p className="text-sm ">Thursday, February 25, 2021</p>
                     </div>
                     <h1 className="uppercase text-xl lg:text-[32px] font-bold">Kenya Embassy Berlin</h1>
                 </div>
