@@ -67,16 +67,23 @@ export const NavBar = () => {
         const menu = document.getElementById('navbar-dropdown') as HTMLElement;
         const dropdownButton = document.getElementById('dropdownNavbarLink') as HTMLElement;
         const dropdownMenu = document.getElementById('dropdownNavbar') as HTMLElement;
-        // const doubleDropdownButton = document.getElementById('doubleDropdownButton') as HTMLElement;
-        // const doubleDropdown = document.getElementById('doubleDropdown') as HTMLElement;
+        const doubleDropdownButton = document.getElementById('dropdownMoreNavbarLink') as HTMLElement;
+        const doubleDropdown = document.getElementById('dropdownMoreNavbar') as HTMLElement;
+
+        const specialDropdownButton = document.getElementById('dropdownSpecialNavbarLink') as HTMLElement;
+        const specialDropdown = document.getElementById('dropdownSpecialNavbar') as HTMLElement;
 
         const handleDropdownButtonClick = () => {
             dropdownMenu.classList.toggle('hidden');
         };
 
-        // const handleDoubleDropdownButtonClick = () => {
-        //     doubleDropdown.classList.toggle('hidden');
-        // };
+        const handleDoubleDropdownButtonClick = () => {
+            doubleDropdown.classList.toggle('hidden');
+        };
+
+        const handleSpecialDropdownButtonClick = () => {
+            specialDropdown.classList.toggle('hidden');
+        };
 
         const handleNavbarToggleClick = () => {
             menu.classList.toggle('hidden');
@@ -88,24 +95,29 @@ export const NavBar = () => {
                 !target.closest('#navbar-toggle') &&
                 !target.closest('#navbar-dropdown') &&
                 !target.closest('#dropdownNavbarLink') &&
-                !target.closest('#dropdownNavbar')
-                // !target.closest('#doubleDropdownButton') &&
-                // !target.closest('#doubleDropdown')
+                !target.closest('#dropdownNavbar') &&
+                !target.closest('#doubleDropdownButton') &&
+                !target.closest('#doubleDropdown') &&
+                !target.closest('#specialDropdownButton') &&
+                !target.closest('#specialDropdown')
             ) {
                 menu.classList.add('hidden');
                 dropdownMenu.classList.add('hidden');
-                // doubleDropdown.classList.add('hidden');
+                doubleDropdown.classList.add('hidden');
+                specialDropdown.classList.add('hidden');
             }
         };
 
         dropdownButton.addEventListener('click', handleDropdownButtonClick);
-        // doubleDropdownButton.addEventListener('click', handleDoubleDropdownButtonClick);
+        doubleDropdownButton.addEventListener('click', handleDoubleDropdownButtonClick);
+        specialDropdownButton.addEventListener('click', handleSpecialDropdownButtonClick);
         button.addEventListener('click', handleNavbarToggleClick);
         document.addEventListener('click', handleDocumentClick);
 
         return () => {
             dropdownButton.removeEventListener('click', handleDropdownButtonClick);
-            // doubleDropdownButton.removeEventListener('click', handleDoubleDropdownButtonClick);
+            doubleDropdownButton.removeEventListener('click', handleDoubleDropdownButtonClick);
+            specialDropdownButton.removeEventListener('click', handleSpecialDropdownButtonClick);
             button.removeEventListener('click', handleNavbarToggleClick);
             document.removeEventListener('click', handleDocumentClick);
         };
@@ -113,7 +125,7 @@ export const NavBar = () => {
 
     return (
         <div>
-            <nav className="bg-white shadow-sm z-20 w-full">
+            <nav className="bg-white shadow-sm z-20 w-full ">
                 <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto lg:p-4">
                     <a href="/" className="flex items-center">
                         <img src={Logo} alt="" className="w-12 lg:w-20" />
@@ -149,21 +161,20 @@ export const NavBar = () => {
                 </div>
                 <div className="flex justify-center pb-4">
                     <div className="hidden w-full md:block md:w-auto" id="navbar-dropdown">
-                        <ul className="flex flex-col items-center font-medium p-4 md:p-0 mt-4 rounded-lg md:flex-row md:space-x-8 md:mt-0">
+                        <ul className="flex flex-col font-medium p-4 md:p-0 mt-4 rounded-lg md:flex-row md:space-x-8 md:mt-0 h-screen lg:h-auto">
                             <li>
                                 <a href="/" className="block py-2 px-2 hover:text-[#994F06]" >Home</a>
                             </li>
                             <li>
-                                <div id="dropdownNavbarLink" data-dropdown-toggle="dropdownNavbar"
-                                    className="cursor-pointer md:p-0 md:w-auto">
+                                <button id="dropdownNavbarLink" data-dropdown-toggle="dropdownNavbar"
+                                    className="cursor-pointer md:p-0 md:w-auto px-2 my-2">
                                     <div className="flex items-center gap-1 hover:text-[#994F06]">
                                         <p>About Kenya</p>
                                         <ArrowDown />
                                     </div>
 
-                                </div>
-                                {/* Dropdown menu */}
-                                <div id="dropdownNavbar" className="absolute z-10 hidden font-normal w-44 bg-white">
+                                </button>
+                                <div id="dropdownNavbar" className="lg:absolute z-10 hidden font-normal w-full lg:w-44 bg-gray-100 lg:bg-white">
                                     <ul className="py-2 text-sm" aria-labelledby="dropdownLargeButton">
                                         <li>
                                             <a href="/history" className="block px-4 py-2 hover:text-[#994F06]">History</a>
@@ -184,7 +195,31 @@ export const NavBar = () => {
                                 </div>
                             </li>
                             <li>
-                                <a href="#" className="block py-2 px-2 hover:text-[#994F06]">Special Pages</a>
+
+                                <li>
+                                    <div id="dropdownSpecialNavbarLink" data-dropdown-toggle="dropdownNavbar"
+                                        className="cursor-pointer md:p-0 md:w-auto px-2 my-2">
+                                        <div className="flex items-center gap-1 hover:text-[#994F06]">
+                                            <p>Special Pages</p>
+                                            <ArrowDown />
+                                        </div>
+
+                                    </div>
+                                    <div id="dropdownSpecialNavbar" className="lg:absolute z-10 hidden w-full lg:w-auto bg-gray-100 lg:bg-white">
+                                        <ul className="py-2 text-sm" aria-labelledby="dropdownLargeButton">
+                                            <li>
+                                                <a href="" className="block px-4 py-2 hover:text-[#994F06]">Frequently Asked Questions</a>
+                                            </li>
+                                            <li>
+                                                <a href="" className="block px-4 py-2 hover:text-[#994F06]">How to Recieve Your Passport After Biomentrics</a>
+                                            </li>
+                                            <li>
+                                                <a href="" className="block px-4 py-2 hover:text-[#994F06]">Lost and Found Items</a>
+                                            </li>
+
+                                        </ul>
+                                    </div>
+                                </li>
                             </li>
                             <li>
                                 <a href="#" className="block py-2 px-2 hover:text-[#994F06]">The Kenyan Government</a>
@@ -199,7 +234,33 @@ export const NavBar = () => {
                                 <a href="#" className="block py-2 px-2 hover:text-[#994F06]">Consular Section</a>
                             </li>
                             <li>
-                                <a href="#" className="block py-2 px-2 hover:text-[#994F06]">More</a>
+                                <div id="dropdownMoreNavbarLink" data-dropdown-toggle="dropdownNavbar"
+                                    className="cursor-pointer md:p-0 md:w-auto px-2 my-2">
+                                    <div className="flex items-center gap-1 hover:text-[#994F06]">
+                                        <p>More</p>
+                                        <ArrowDown />
+                                    </div>
+
+                                </div>
+                                <div id="dropdownMoreNavbar" className="lg:absolute z-10 hidden w-full bg-gray-100 lg:bg-white">
+                                    <ul className="py-2 text-sm" aria-labelledby="dropdownLargeButton">
+                                        <li>
+                                            <a href="" className="block px-4 py-2 hover:text-[#994F06]">Information for Kenyans in Disaspora</a>
+                                        </li>
+                                        <li>
+                                            <a href="" className="block px-4 py-2 hover:text-[#994F06]">Tourism</a>
+                                        </li>
+                                        <li>
+                                            <a href="" className="block px-4 py-2 hover:text-[#994F06]">Travel Information for Kenya</a>
+                                        </li>
+                                        <li>
+                                            <a href="" className="block px-4 py-2 hover:text-[#994F06]">Useful Links</a>
+                                        </li>
+                                        <li>
+                                            <a href="" className="block px-4 py-2 hover:text-[#994F06]">The Media</a>
+                                        </li>
+                                    </ul>
+                                </div>
                             </li>
                         </ul>
                     </div>

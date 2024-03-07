@@ -40,11 +40,11 @@ const HomePage = () => {
                         <div className="">
                             <div className="lg:grid grid-cols-3 gap-4 lg:py-16">
                                 <div className="col-span-2">
-                                    <p className="text-2xl font-bold text-[#994F06]">eTA</p>
-                                    <p className="lg:text-xl py-3">From 01.01.2024, an electronic travel authorization (eTA) is required for ALL visitors (foreigners except citizens of EAC member states) including infants and children, to enter the Republic of Kenya.
+                                    <p className="text-xl font-bold text-[#994F06]">eTA</p>
+                                    <p className=" py-3">From 01.01.2024, an electronic travel authorization (eTA) is required for ALL visitors (foreigners except citizens of EAC member states) including infants and children, to enter the Republic of Kenya.
                                         This must be applied for via the following link:<span><a href="" className="underline text-[#994F06]">www.etakenya.go.ke</a></span></p>
                                     <p className="pb-3 text-xl font-bold text-[#994F06]">eTA on arrival is NOT possible!</p>
-                                    <p className="lg:text-xl">Already paid and issued eVisas are valid and can be used to enter Kenya until the expiry of their validity. You do NOT need an eTA when you have a valid visa.</p>
+                                    <p className="">Already paid and issued eVisas are valid and can be used to enter Kenya until the expiry of their validity. You do NOT need an eTA when you have a valid visa.</p>
                                 </div>
                                 <img src={ETA} alt="" className="mt-4 lg:mt-0" />
                             </div>
@@ -53,8 +53,8 @@ const HomePage = () => {
 
                         <div>
                             <div className="py-6 lg:py-16">
-                                <p className="text-2xl font-bold text-[#994F06]">Mobile Consular Service</p>
-                                <p className="lg:text-xl pt-3">The Embassy informs that it has already received a certain number of ID cards. Please send an e-mail with your details to <span className="text-[#994F06]">immigration2@kenyaembassyberlin.de</span> so that we can let you know whether your ID card is already in Berlin.</p>
+                                <p className="text-xl font-bold text-[#994F06]">Mobile Consular Service</p>
+                                <p className=" pt-3">The Embassy informs that it has already received a certain number of ID cards. Please send an e-mail with your details to <span className="text-[#994F06]">immigration2@kenyaembassyberlin.de</span> so that we can let you know whether your ID card is already in Berlin.</p>
                             </div>
                             <div className="w-full h-0.5 bg-slate-100 hidden lg:block"></div>
                         </div>
