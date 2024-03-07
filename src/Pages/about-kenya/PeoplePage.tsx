@@ -11,7 +11,7 @@ function PeoplePage() {
             <div className="relative">
                 <img src={PeopleImage} alt="" className="-z-10 h-[200px] object-cover lg:h-auto w-full" />
                 <div>
-                    <p className="absolute inset-0 flex items-center justify-center text-4xl font-bold text-white">People</p>
+                    <p className="absolute inset-0 flex items-center justify-center text-4xl font-bold text-white">The People</p>
                 </div>
             </div>
             <section className="px-4 py-4 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
