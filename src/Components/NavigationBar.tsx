@@ -11,7 +11,7 @@ const NavigationBar = () => {
                         <WebIcon />
                         <p className="text-sm">Thursday, February 25, 2021</p>
                     </div>
-                    <h1 className="uppercase text-xl lg:text-[32px]">Kenya Embassy Berlin</h1>
+                    <h1 className="uppercase text-xl lg:text-[32px] font-bold">Kenya Embassy Berlin</h1>
                 </div>
 
                 <div className="hidden lg:block">
