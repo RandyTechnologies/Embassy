@@ -18,9 +18,9 @@ const HomePage = () => {
                 <div className="relative">
                     <img src={Hero} alt="" className="h-[600px] lg:h-auto object-cover w-full" />
                     <div className="lg:w-[590px] absolute z-10 bg-[#994F06] left-0 bottom-0 lg:left-[14%] lg:bottom-[5%] text-white p-6 bg-opacity-85">
-                        <p>Latest News</p>
-                        <p className="text-xl lg:text-[40px] leading-none font-semibold uppercase">Jane Fraser Is Hitting Refresh at Citigroup</p>
-                        <p className="py-3 text-xs lg:text-base">Scott Morrison says Coalition is ‘getting on with’ reductions, but analysis finds end of lockdowns and drought will reverse trend</p>
+                        <p className="text-sm">Latest News</p>
+                        <p className="mt-2 text-xl lg:text-[40px] leading-none font-bold">Jane Fraser Is Hitting Refresh at Citigroup</p>
+                        <p className="py-3 text-xs lg:text-base">Scott Morrison says Coalition is ‘getting on with’ reductions, but analysis finds end of lockdowns and drought will reverse trend...</p>
                         <a href="" className="text-xs lg:text-base px-6 py-2 text-[#994F06] bg-white rounded-full">Read More</a>
                     </div>
                 </div>
@@ -50,6 +50,7 @@ const HomePage = () => {
                             </div>
                             <div className="w-full h-0.5 bg-slate-100 hidden lg:block"></div>
                         </div>
+
                         <div>
                             <div className="py-6 lg:py-16">
                                 <p className="text-2xl font-bold text-[#994F06]">Mobile Consular Service</p>

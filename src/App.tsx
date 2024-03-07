@@ -1,11 +1,13 @@
 import './App.css'
-import HomePage from './Pages/HomePage'
+// import HomePage from './Pages/HomePage'
+import HistoryPage from './Pages/about-kenya/HistoryPage'
 
 function App() {
 
   return (
     <>
-      <HomePage />
+      {/* <HomePage /> */}
+      <HistoryPage />
     </>
   )
 }
