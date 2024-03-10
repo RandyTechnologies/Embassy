@@ -28,11 +28,11 @@ const HomePage = () => {
             <section className="px-4 py-4 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
                 <div className="grid lg:grid-cols-4 gap-4">
                     <div className="col-span-3">
-                        <div className="">
+                        {/* <div className="">
                             <p className="text-center text-xl font-bold py-4">Tobong'u Lorre! Welcome Home</p>
                             <p className="text-2xl lg:text-[32px] italic text-center">'Kenya is the home of humanity'</p>
                             <p className="text-center text-sm">H.E. President William S. Ruto</p>
-                        </div>
+                        </div> */}
                         <div>
                             <QuickActionsComponent />
                             <div className="w-full h-0.5 bg-slate-100 hidden lg:block"></div>
