@@ -151,7 +151,7 @@ export const NavBar = () => {
                                             <a href="/faqs" className="block px-4 py-2 hover:text-[#994F06]">Frequently Asked Questions</a>
                                         </li>
                                         <li>
-                                            <a href="" className="block px-4 py-2 hover:text-[#994F06]">How to Recieve Your Passport After Biomentrics</a>
+                                            <a href="/recieving-passport-after-biometrics" className="block px-4 py-2 hover:text-[#994F06]">How to Recieve Your Passport After Biomentrics</a>
                                         </li>
                                         <li>
                                             <a href="" className="block px-4 py-2 hover:text-[#994F06]">Lost and Found Items</a>

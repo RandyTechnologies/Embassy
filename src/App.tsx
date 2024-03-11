@@ -7,6 +7,7 @@ import PeoplePage from './Pages/about-kenya/PeoplePage'
 import HomePage from './Pages/HomePage'
 import HistoryPage from './Pages/about-kenya/HistoryPage'
 import FrequentlyAQs from './Pages/special-pages/FrequentlyAQsPage'
+import RecievingPassportAfterBiometricsPage from './Pages/special-pages/RecievingPassportAfterBiometricsPage'
 
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
 
           {/* Special Pages Links */}
           <Route path="/faqs" element={<FrequentlyAQs />} />
+          <Route path="/recieving-passport-after-biometrics" element={<RecievingPassportAfterBiometricsPage />} />
 
         </Routes>
       </BrowserRouter>
