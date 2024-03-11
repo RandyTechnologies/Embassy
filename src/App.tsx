@@ -6,7 +6,7 @@ import GeographyPage from './Pages/about-kenya/GeographyPage'
 import PeoplePage from './Pages/about-kenya/PeoplePage'
 import HomePage from './Pages/HomePage'
 import HistoryPage from './Pages/about-kenya/HistoryPage'
-import FrequentlyAQs from './Pages/special-pages/FrequentlyAQs'
+import FrequentlyAQs from './Pages/special-pages/FrequentlyAQsPage'
 
 
 function App() {
