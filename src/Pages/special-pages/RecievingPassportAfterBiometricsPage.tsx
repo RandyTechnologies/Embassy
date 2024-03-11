@@ -40,7 +40,7 @@ const RecievingPassportAfterBiometricsPage = () => {
                     </p>
                 </div>
 
-                <div className="lg:pt-8">
+                <div className="pt-4 lg:pt-8">
                     <p className="text-2xl font-bold uppercase pt-4 pb-4">APPLICANTS FROM OUTSIDE GERMANY</p>
                     <p className="mb-4 ">
                         You should send the following to the Embassy via any courier service of your choice:
