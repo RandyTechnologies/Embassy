@@ -1,3 +1,4 @@
+import { Footer } from "../../Components/Footer"
 import { NavBar } from "../../Components/NavigationBar"
 
 const FrequentlyAQs = () => {
@@ -253,6 +254,7 @@ const FrequentlyAQs = () => {
                     </div>
 
                 </div>
+                <Footer />
             </div>
         </div>
     )
