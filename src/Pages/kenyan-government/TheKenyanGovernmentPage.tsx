@@ -18,17 +18,18 @@ const TheKenyanGovernmentPage = () => {
                 <div className="px-4 py-4 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-8">
                     <div className="grid lg:grid-cols-3 gap-10">
                         <section className="col-span-2">
-                            <div className="flex gap-20 items-center">
+                            <div className="flex gap-10 lg:gap-20 items-center border-b pb-8 lg:pb-16">
                                 <div>
                                     <img src={Flag} alt="" className="w-48" />
-                                    <p className="pt-4 text-xl font-bold text-center">Flag of Kenya</p>
+                                    <p className="pt-4 lg:text-xl lg:font-bold text-center leading-none">Flag of Kenya</p>
                                 </div>
                                 <div>
                                     <img src={Arms} alt="" className="w-48" />
-                                    <p className="pt-4 text-xl font-bold text-center">Court of Arms</p>
+                                    <p className="pt-4 lg:text-xl lg:font-bold text-center leading-none">Court of Arms</p>
                                 </div>
+                                <a href="#anthem" className="lg:hidden underline text-center text-[#994F06] leading-none">Kenya National Anthem</a>
                             </div>
-                            <div className="pb-4 pt-16">
+                            <div className="pb-4 pt-8 lg:pt-16">
                                 <p className="font-bold text-xl uppercase pb-2">Structure of the Kenyan Government</p>
                                 <p className="pb-2">The 2010 Constitution established the structure of the Kenyan Government.</p>
                                 <p className="mb-4">
@@ -74,7 +75,7 @@ const TheKenyanGovernmentPage = () => {
                                 </p>
                             </div>
                         </section>
-                        <section>
+                        <section className="lg:border-l lg:px-16" id="anthem">
                             <p className="font-bold text-xl">Kenya National Anthem</p>
                             <p className="font-bold text-2xl pb-8 pt-4">English</p>
                             <div className="mb-4">
