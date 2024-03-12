@@ -11,7 +11,7 @@ const TheKenyanGovernmentPage = () => {
                 <div className="bg-[#994F06]">
                     <div className="px-4 py-4 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-16">
                         <div>
-                            <p className="text-2xl lg:text-4xl  font-bold text-white">The Kenyan Government</p>
+                            <p className="text-2xl lg:text-4xl  font-bold text-white uppercase text-center">The Kenyan Government</p>
                         </div>
                     </div>
                 </div>
@@ -42,27 +42,27 @@ const TheKenyanGovernmentPage = () => {
                                 <p className="mb-4">
                                     The President is the Head of State and Government, Commander-in-Chief of the Kenya Defence Forces, and the Chairperson of the National Security Council.
                                 </p>
-                                <p className="pb-2">For further information on the President, please click on the following link<a href="http://www.statehousekenya.go.ke/" className="underline text-[#994F06]">http://www.statehousekenya.go.ke</a></p>
+                                <p className="pb-2">For further information on the President, please click on the following link <a href="http://www.statehousekenya.go.ke/" className="underline text-[#994F06]">http://www.statehousekenya.go.ke</a></p>
                                 <p className="mb-4">
                                     The Deputy President is the President's principal assistant.
                                 </p>
-                                <p className="pb-2">For further information on the President, please click on the following link
-                                    <a className="underline text-[#994F06]">www.deputypresident.go.ke</a></p>
+                                <p className="pb-2">For further information on the President, please click on the following link {" "}
+                                    <a className="underline text-[#994F06]"> www.deputypresident.go.ke</a></p>
                             </div>
 
                             <div className="pb-4">
                                 <p className="font-bold text-xl uppercase pb-2">The Parliament</p>
-                                <p className="pb-2">Kenya's Parliament consists of two houses:
+                                <p className="pb-2">Kenya's Parliament consists of two houses: {" "}
                                     <a className="font-bold text-[#994F06]">the National Assembly and the Senate.</a></p>
-                                <p className="pb-2">For further information on the Parliament, please click on the following link.
-                                    <a href="http://www.bunge.go.ke/" className="underline text-[#994F06]">www.deputypresident.go.ke</a></p>
+                                <p className="pb-2">For further information on the Parliament, please click on the following link. {" "}
+                                    <a href="http://www.bunge.go.ke/" className="underline text-[#994F06]"> www.deputypresident.go.ke</a></p>
                             </div>
                             <div className="pb-4">
                                 <p className="font-bold text-xl uppercase pb-2">The Judiciary</p>
                                 <p className="pb-2">
                                     The Judiciary is divided into Superior Courts and Subordinate Courts. The Superior Courts are: the Supreme Court, the Court of Appeal and the High Court. The Supreme Court is the highest court in Kenya. The Subordinate Courts are: the Magistrates Courts, the Kadhi Courts, the Courts Martial and the Tribunals
                                 </p>
-                                <p className="pb-2">For further information on the Judiciary, please click on the following link
+                                <p className="pb-2">For further information on the Judiciary, please click on the following link {" "}
                                     <a href="http://www.judiciary.go.ke/" className="underline text-[#994F06]"> http://www.judiciary.go.ke/</a></p>
                             </div>
                             <div>
