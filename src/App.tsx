@@ -8,6 +8,7 @@ import HomePage from './Pages/HomePage'
 import HistoryPage from './Pages/about-kenya/HistoryPage'
 import FrequentlyAQs from './Pages/special-pages/FrequentlyAQsPage'
 import RecievingPassportAfterBiometricsPage from './Pages/special-pages/RecievingPassportAfterBiometricsPage'
+import TheKenyanGovernmentPage from './Pages/kenyan-government/TheKenyanGovernmentPage'
 
 
 function App() {
@@ -27,6 +28,9 @@ function App() {
           {/* Special Pages Links */}
           <Route path="/faqs" element={<FrequentlyAQs />} />
           <Route path="/recieving-passport-after-biometrics" element={<RecievingPassportAfterBiometricsPage />} />
+
+          {/* The Kenyan Government Pages */}
+          <Route path="/the-kenyan-government" element={<TheKenyanGovernmentPage />} />
 
         </Routes>
       </BrowserRouter>

@@ -161,7 +161,7 @@ export const NavBar = () => {
                                 </div>
                             </li>
                             <li>
-                                <a href="#" className="block py-2 px-2 hover:text-[#994F06]">The Kenyan Government</a>
+                                <a href="/the-kenyan-government" className="block py-2 px-2 hover:text-[#994F06]">The Kenyan Government</a>
                             </li>
                             <li>
                                 <a href="#" className="block py-2 px-2 hover:text-[#994F06]">Bilateral Relations</a>
