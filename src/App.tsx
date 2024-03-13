@@ -9,6 +9,7 @@ import HistoryPage from './Pages/about-kenya/HistoryPage'
 import FrequentlyAQs from './Pages/special-pages/FrequentlyAQsPage'
 import RecievingPassportAfterBiometricsPage from './Pages/special-pages/RecievingPassportAfterBiometricsPage'
 import TheKenyanGovernmentPage from './Pages/kenyan-government/TheKenyanGovernmentPage'
+import OfficialVisitsPage from './Pages/bilateral-relations/OfficialVisitsPage'
 
 
 function App() {
@@ -31,6 +32,9 @@ function App() {
 
           {/* The Kenyan Government Pages */}
           <Route path="/the-kenyan-government" element={<TheKenyanGovernmentPage />} />
+
+          {/* Bilateral Relations */}
+          <Route path="/official-visits" element={<OfficialVisitsPage />} />
 
         </Routes>
       </BrowserRouter>

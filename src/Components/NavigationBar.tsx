@@ -7,13 +7,18 @@ export const NavBar = () => {
     useEffect(() => {
         const button = document.getElementById('navbar-toggle') as HTMLElement;
         const menu = document.getElementById('navbar-dropdown') as HTMLElement;
+
         const dropdownButton = document.getElementById('dropdownNavbarLink') as HTMLElement;
         const dropdownMenu = document.getElementById('dropdownNavbar') as HTMLElement;
+
         const doubleDropdownButton = document.getElementById('dropdownMoreNavbarLink') as HTMLElement;
         const doubleDropdown = document.getElementById('dropdownMoreNavbar') as HTMLElement;
 
         const specialDropdownButton = document.getElementById('dropdownSpecialNavbarLink') as HTMLElement;
         const specialDropdown = document.getElementById('dropdownSpecialNavbar') as HTMLElement;
+
+        const bilateralDropdownButton = document.getElementById('dropdownBilateralNavbarLink') as HTMLElement;
+        const bilateralDropdown = document.getElementById('dropdownBilateralNavbar') as HTMLElement;
 
         const handleDropdownButtonClick = () => {
             dropdownMenu.classList.toggle('hidden');
@@ -25,6 +30,10 @@ export const NavBar = () => {
 
         const handleSpecialDropdownButtonClick = () => {
             specialDropdown.classList.toggle('hidden');
+        };
+
+        const handleBilateralDropdownButtonClick = () => {
+            bilateralDropdown.classList.toggle('hidden');
         };
 
         const handleNavbarToggleClick = () => {
@@ -41,18 +50,22 @@ export const NavBar = () => {
                 !target.closest('#doubleDropdownButton') &&
                 !target.closest('#doubleDropdown') &&
                 !target.closest('#specialDropdownButton') &&
-                !target.closest('#specialDropdown')
+                !target.closest('#specialDropdown') &&
+                !target.closest('#bilateralDropdownButton') &&
+                !target.closest('#bilateralDropdown')
             ) {
                 menu.classList.add('hidden');
                 dropdownMenu.classList.add('hidden');
                 doubleDropdown.classList.add('hidden');
                 specialDropdown.classList.add('hidden');
+                bilateralDropdown.classList.add('hidden');
             }
         };
 
         dropdownButton.addEventListener('click', handleDropdownButtonClick);
         doubleDropdownButton.addEventListener('click', handleDoubleDropdownButtonClick);
         specialDropdownButton.addEventListener('click', handleSpecialDropdownButtonClick);
+        bilateralDropdownButton.addEventListener('click', handleBilateralDropdownButtonClick);
         button.addEventListener('click', handleNavbarToggleClick);
         document.addEventListener('click', handleDocumentClick);
 
@@ -60,6 +73,7 @@ export const NavBar = () => {
             dropdownButton.removeEventListener('click', handleDropdownButtonClick);
             doubleDropdownButton.removeEventListener('click', handleDoubleDropdownButtonClick);
             specialDropdownButton.removeEventListener('click', handleSpecialDropdownButtonClick);
+            bilateralDropdownButton.removeEventListener('click', handleBilateralDropdownButtonClick);
             button.removeEventListener('click', handleNavbarToggleClick);
             document.removeEventListener('click', handleDocumentClick);
         };
@@ -90,7 +104,6 @@ export const NavBar = () => {
                         <span className="sr-only">Open main menu</span>
                         <MenuIcon />
                     </button>
-
                 </div>
                 <div className="lg:hidden">
                     <div>
@@ -156,7 +169,6 @@ export const NavBar = () => {
                                         <li>
                                             <a href="" className="block px-4 py-2 hover:text-[#994F06]">Lost and Found Items</a>
                                         </li>
-
                                     </ul>
                                 </div>
                             </li>
@@ -164,8 +176,28 @@ export const NavBar = () => {
                                 <a href="/the-kenyan-government" className="block py-2 px-2 hover:text-[#994F06]">The Kenyan Government</a>
                             </li>
                             <li>
-                                <a href="#" className="block py-2 px-2 hover:text-[#994F06]">Bilateral Relations</a>
+                                <button id="dropdownBilateralNavbarLink" data-dropdown-toggle="dropdownNavbar"
+                                    className="cursor-pointer md:p-0 md:w-auto px-2 my-2">
+                                    <div className="flex items-center gap-1 hover:text-[#994F06]">
+                                        <p>Bilateral Relations</p>
+                                        <ArrowDown />
+                                    </div>
+                                </button>
+                                <div id="dropdownBilateralNavbar" className="lg:absolute z-10 hidden w-full lg:w-auto bg-gray-100 lg:bg-white">
+                                    <ul className="py-2 text-sm" aria-labelledby="dropdownLargeButton">
+                                        <li>
+                                            <a href="/official-visits" className="block px-4 py-2 hover:text-[#994F06]">Official Visits</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" className="block px-4 py-2 hover:text-[#994F06]">Development Co-op</a>
+                                        </li>
+                                        <li>
+                                            <a href="" className="block px-4 py-2 hover:text-[#994F06]">Cultural Relations</a>
+                                        </li>
+                                    </ul>
+                                </div>
                             </li>
+
                             <li>
                                 <a href="#" className="block py-2 px-2 hover:text-[#994F06]">The Embassy</a>
                             </li>
