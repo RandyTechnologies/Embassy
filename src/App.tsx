@@ -10,6 +10,7 @@ import FrequentlyAQs from './Pages/special-pages/FrequentlyAQsPage'
 import RecievingPassportAfterBiometricsPage from './Pages/special-pages/RecievingPassportAfterBiometricsPage'
 import TheKenyanGovernmentPage from './Pages/kenyan-government/TheKenyanGovernmentPage'
 import OfficialVisitsPage from './Pages/bilateral-relations/OfficialVisitsPage'
+import DevCop from './Pages/bilateral-relations/DevCop'
 
 
 function App() {
@@ -35,6 +36,7 @@ function App() {
 
           {/* Bilateral Relations */}
           <Route path="/official-visits" element={<OfficialVisitsPage />} />
+          <Route path="/dev-cop" element={<DevCop />} />
 
         </Routes>
       </BrowserRouter>
