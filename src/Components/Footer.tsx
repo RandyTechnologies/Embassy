@@ -25,9 +25,7 @@ export const Footer = () => {
 
                             <img src={Logo} alt="" className="lg:w-36" />
                         </a>
-                        <p className="text-2xl font-bold text-white">Embassy of Kenya in Germany
-                            with accreditation to
-                            Poland and Czechia</p>
+                        <p className="text-2xl font-bold text-white">KENYA EMBASSY BERLIN</p>
                     </div>
                     <div className="grid grid-cols-2 gap-5 row-gap-8 lg:col-span-3 md:grid-cols-3">
                         <div>
