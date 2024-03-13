@@ -11,6 +11,7 @@ import RecievingPassportAfterBiometricsPage from './Pages/special-pages/Recievin
 import TheKenyanGovernmentPage from './Pages/kenyan-government/TheKenyanGovernmentPage'
 import OfficialVisitsPage from './Pages/bilateral-relations/OfficialVisitsPage'
 import DevCop from './Pages/bilateral-relations/DevCop'
+import CulturalRelations from './Pages/bilateral-relations/CulturalRelations'
 
 
 function App() {
@@ -37,6 +38,7 @@ function App() {
           {/* Bilateral Relations */}
           <Route path="/official-visits" element={<OfficialVisitsPage />} />
           <Route path="/dev-cop" element={<DevCop />} />
+          <Route path="/cultural-relations" element={<CulturalRelations />} />
 
         </Routes>
       </BrowserRouter>

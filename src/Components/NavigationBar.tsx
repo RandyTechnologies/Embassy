@@ -192,7 +192,7 @@ export const NavBar = () => {
                                             <a href="/dev-cop" className="block px-4 py-2 hover:text-[#994F06]">Development Co-op</a>
                                         </li>
                                         <li>
-                                            <a href="" className="block px-4 py-2 hover:text-[#994F06]">Cultural Relations</a>
+                                            <a href="/cultural-relations" className="block px-4 py-2 hover:text-[#994F06]">Cultural Relations</a>
                                         </li>
                                     </ul>
                                 </div>
