@@ -18,7 +18,7 @@ const TheEmbassyPage = () => {
                     <div>
                         <div className="py-4">
                             <div>
-                                <p className="font-bold text-xl">
+                                <p className="font-bold text-2xl uppercase">
                                     Our Vision
                                 </p>
                                 <p className="pb-4">
@@ -26,7 +26,7 @@ const TheEmbassyPage = () => {
                                 </p>
                             </div>
                             <div>
-                                <p className="font-bold text-xl">
+                                <p className="font-bold text-2xl uppercase">
                                     Our Mission
                                 </p>
                                 <p className="pb-4">
