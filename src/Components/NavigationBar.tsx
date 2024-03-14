@@ -199,7 +199,7 @@ export const NavBar = () => {
                             </li>
 
                             <li>
-                                <a href="#" className="block py-2 px-2 hover:text-[#994F06]">The Embassy</a>
+                                <a href="/the-embassy" className="block py-2 px-2 hover:text-[#994F06]">The Embassy</a>
                             </li>
                             <li>
                                 <a href="#" className="block py-2 px-2 hover:text-[#994F06]">Consular Section</a>

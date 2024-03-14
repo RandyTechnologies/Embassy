@@ -12,6 +12,7 @@ import TheKenyanGovernmentPage from './Pages/kenyan-government/TheKenyanGovernme
 import OfficialVisitsPage from './Pages/bilateral-relations/OfficialVisitsPage'
 import DevCop from './Pages/bilateral-relations/DevCop'
 import CulturalRelations from './Pages/bilateral-relations/CulturalRelations'
+import TheEmbassyPage from './Pages/the-embassy/TheEmbassyPage'
 
 
 function App() {
@@ -39,6 +40,9 @@ function App() {
           <Route path="/official-visits" element={<OfficialVisitsPage />} />
           <Route path="/dev-cop" element={<DevCop />} />
           <Route path="/cultural-relations" element={<CulturalRelations />} />
+
+          {/* The Embassy */}
+          <Route path="/the-embassy" element={<TheEmbassyPage />} />
 
         </Routes>
       </BrowserRouter>
