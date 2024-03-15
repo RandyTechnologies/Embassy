@@ -16,6 +16,7 @@ import TheEmbassyPage from './Pages/the-embassy/TheEmbassyPage'
 import ConsularPage from './Pages/consular-section/ConsularPage'
 import EtaPage from './Pages/consular-section/EtaPage'
 import MarriagePage from './Pages/consular-section/MarriagePage'
+import PermitsAndPassesPage from './Pages/consular-section/PermitsAndPassesPage'
 
 
 function App() {
@@ -51,6 +52,7 @@ function App() {
           <Route path="/consular" element={<ConsularPage />} />
           <Route path="/eta-page" element={<EtaPage />} />
           <Route path="/marriage" element={<MarriagePage />} />
+          <Route path="/permits" element={<PermitsAndPassesPage />} />
 
         </Routes>
       </BrowserRouter>
