@@ -225,7 +225,7 @@ export const NavBar = () => {
                                 <div id="dropdownConsularNavbar" className="lg:absolute z-10 hidden w-full lg:w-auto shadow-sm bg-gray-100 lg:bg-white">
                                     <ul className="py-2 text-sm" aria-labelledby="dropdownLargeButton">
                                         <li>
-                                            <a href="" className="block px-4 py-2 hover:text-[#994F06]">Consular Section</a>
+                                            <a href="/consular" className="block px-4 py-2 hover:text-[#994F06]">Consular Section</a>
                                         </li>
                                         <li>
                                             <a href="" className="block px-4 py-2 hover:text-[#994F06]">eTA</a>

@@ -13,6 +13,7 @@ import OfficialVisitsPage from './Pages/bilateral-relations/OfficialVisitsPage'
 import DevCop from './Pages/bilateral-relations/DevCop'
 import CulturalRelations from './Pages/bilateral-relations/CulturalRelations'
 import TheEmbassyPage from './Pages/the-embassy/TheEmbassyPage'
+import ConsularPage from './Pages/consular-section/ConsularPage'
 
 
 function App() {
@@ -43,6 +44,9 @@ function App() {
 
           {/* The Embassy */}
           <Route path="/the-embassy" element={<TheEmbassyPage />} />
+
+          {/* Consular Section */}
+          <Route path="/consular" element={<ConsularPage />} />
 
         </Routes>
       </BrowserRouter>
