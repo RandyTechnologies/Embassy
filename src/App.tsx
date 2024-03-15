@@ -14,6 +14,7 @@ import DevCop from './Pages/bilateral-relations/DevCop'
 import CulturalRelations from './Pages/bilateral-relations/CulturalRelations'
 import TheEmbassyPage from './Pages/the-embassy/TheEmbassyPage'
 import ConsularPage from './Pages/consular-section/ConsularPage'
+import EtaPage from './Pages/consular-section/EtaPage'
 
 
 function App() {
@@ -47,6 +48,7 @@ function App() {
 
           {/* Consular Section */}
           <Route path="/consular" element={<ConsularPage />} />
+          <Route path="/eta-page" element={<EtaPage />} />
 
         </Routes>
       </BrowserRouter>
