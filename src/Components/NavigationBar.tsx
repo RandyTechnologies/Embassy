@@ -231,7 +231,7 @@ export const NavBar = () => {
                                             <a href="/eta-page" className="block px-4 py-2 hover:text-[#994F06]">eTA</a>
                                         </li>
                                         <li>
-                                            <a href="" className="block px-4 py-2 hover:text-[#994F06]">Marriage</a>
+                                            <a href="/marriage" className="block px-4 py-2 hover:text-[#994F06]">Marriage</a>
                                         </li>
                                         <li>
                                             <a href="" className="block px-4 py-2 hover:text-[#994F06]">Kenya Permits and Passes</a>
