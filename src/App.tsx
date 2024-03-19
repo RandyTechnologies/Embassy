@@ -17,6 +17,7 @@ import ConsularPage from './Pages/consular-section/ConsularPage'
 import EtaPage from './Pages/consular-section/EtaPage'
 import MarriagePage from './Pages/consular-section/MarriagePage'
 import PermitsAndPassesPage from './Pages/consular-section/PermitsAndPassesPage'
+import FilmPermitPage from './Pages/consular-section/FilmPermitPage'
 
 
 function App() {
@@ -53,6 +54,7 @@ function App() {
           <Route path="/eta-page" element={<EtaPage />} />
           <Route path="/marriage" element={<MarriagePage />} />
           <Route path="/permits" element={<PermitsAndPassesPage />} />
+          <Route path="/film-permit" element={<FilmPermitPage />} />
 
         </Routes>
       </BrowserRouter>
