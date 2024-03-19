@@ -46,7 +46,7 @@ const FilmPermitPage = () => {
                     </p>
                 </div>
                 <div>
-                    <p className="font-bold py-2 uppercase">FRAMEWORK ON WAIVERS BY THE NATIONAL TREASURY</p>
+                    <p className="font-bold mt-4 py-2 uppercase">FRAMEWORK ON WAIVERS BY THE NATIONAL TREASURY</p>
                     <p className="mb-4">
                         On October 18th 2018, the National government directed all state agencies to abide by a new framework of guidelines requesting, processing and granting of tax exemptions and waivers on any national tax, fees or charges within the national treasury circular No.9/2018.  For application of the same through the Commission, please be guided by the requirements as provided here
                         <a className="hover:underline text-[#994F06]" href="http://kenyafilmcommission.com/images/pdf/Circular_No.9-2018_on_tax_exception_waiver_variation_remission_on_a_National_Tax_a_Fee_or_a_Charge.pdf">
