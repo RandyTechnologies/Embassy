@@ -243,7 +243,7 @@ export const NavBar = () => {
                                             <a href="/repatriation" className="block px-4 py-2 hover:text-[#994F06]">Repatriation of a Decerased <br></br> Kenyan National</a>
                                         </li>
                                         <li>
-                                            <a href="" className="block px-4 py-2 hover:text-[#994F06]">Legalization Documents</a>
+                                            <a href="/legal-docs" className="block px-4 py-2 hover:text-[#994F06]">Legalization Documents</a>
                                         </li>
                                     </ul>
                                 </div>

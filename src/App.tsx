@@ -19,6 +19,7 @@ import MarriagePage from './Pages/consular-section/MarriagePage'
 import PermitsAndPassesPage from './Pages/consular-section/PermitsAndPassesPage'
 import FilmPermitPage from './Pages/consular-section/FilmPermitPage'
 import RepatriationPage from './Pages/consular-section/ RepatriationPage'
+import LegalizationOfDocumentsPage from './Pages/consular-section/LegalizationOfDocumentsPage'
 
 
 function App() {
@@ -57,6 +58,7 @@ function App() {
           <Route path="/permits" element={<PermitsAndPassesPage />} />
           <Route path="/film-permit" element={<FilmPermitPage />} />
           <Route path="/repatriation" element={<RepatriationPage />} />
+          <Route path="/legal-docs" element={<LegalizationOfDocumentsPage />} />
 
         </Routes>
       </BrowserRouter>
