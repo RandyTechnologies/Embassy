@@ -42,17 +42,21 @@ export const NavBar = () => {
                 </div>
             </div>
             <div className="flex items-center font-medium justify-around">
-                <ul className="z-20 md:flex hidden items-center gap-8 font-[Poppins]">
+                <ul className="z-20 md:flex hidden items-center gap-4">
                     <li>
-                        <Link to="/" className="py-7 px-3 inline-block normal-case">
+                        <Link to="/" className="px-3 inline-block normal-case hover:text-[#994F06] py-4">
                             Home
                         </Link>
                     </li>
                     <li>
-                        <a href="/the-kenyan-government" className="block py-2 px-2 hover:text-[#994F06]">The Kenyan Government</a>
+                        <Link to="/the-kenyan-government" className="px-3 inline-block normal-case hover:text-[#994F06] py-4">
+                            The Kenyan Government
+                        </Link>
                     </li>
                     <li>
-                        <a href="/the-embassy" className="block py-2 px-2 hover:text-[#994F06]">The Embassy</a>
+                        <Link to="/the-embassy" className="px-3 inline-block normal-case hover:text-[#994F06] py-4">
+                            The Embassy
+                        </Link>
                     </li>
                     <NavLinks />
                 </ul>
@@ -63,6 +67,16 @@ export const NavBar = () => {
                     <li>
                         <Link to="/" className="py-7 px-3 inline-block normal-case">
                             Home
+                        </Link>
+                    </li>
+                    <li>
+                        <Link to="/the-kenyan-government" className="px-3 inline-block normal-case hover:text-[#994F06] py-4">
+                            The Kenyan Government
+                        </Link>
+                    </li>
+                    <li>
+                        <Link to="/the-embassy" className="px-3 inline-block normal-case hover:text-[#994F06] py-4">
+                            The Embassy
                         </Link>
                     </li>
                     <NavLinks />
