@@ -16,8 +16,8 @@ const HomePage = () => {
             </section>
             <section>
                 <div className="relative">
-                    <img src={Hero} alt="" className="h-[600px] lg:h-auto object-cover w-full" />
-                    <div className="lg:w-[590px] absolute z-10 bg-[#994F06] left-0 bottom-0 lg:left-[14%] lg:bottom-[5%] text-white p-6 bg-opacity-85">
+                    <img src={Hero} alt="" className="h-[600px] lg:h-auto object-cover w-full -z-10" />
+                    <div className="lg:w-[590px] absolute  bg-[#994F06] left-0 bottom-0 lg:left-[14%] lg:bottom-[5%] text-white p-6 bg-opacity-85">
                         <p className="text-sm">Latest News</p>
                         <p className="mt-2 text-xl lg:text-[40px] leading-none font-bold">Jane Fraser Is Hitting Refresh at Citigroup</p>
                         <p className="py-3 text-xs lg:text-base">Scott Morrison says Coalition is ‘getting on with’ reductions, but analysis finds end of lockdowns and drought will reverse trend...</p>

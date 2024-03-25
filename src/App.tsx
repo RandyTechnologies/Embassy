@@ -31,7 +31,7 @@ function App() {
           <Route path="/" element={<HomePage />} />
           {/* About Links */}
           <Route path="/history" element={<HistoryPage />} />
-          <Route path="/geograpgy" element={<GeographyPage />} />
+          <Route path="/geography" element={<GeographyPage />} />
           <Route path="/people" element={<PeoplePage />} />
           <Route path="/culture" element={<CulturePage />} />
           <Route path="/media" element={<MediaPage />} />
