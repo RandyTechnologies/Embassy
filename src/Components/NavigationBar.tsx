@@ -7,18 +7,22 @@ import { IonIcon } from "@ionic/react";
 
 
 export const NavBar = () => {
+    const currentDate = new Date();
+    const options: Intl.DateTimeFormatOptions = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+    const formattedDate = currentDate.toLocaleDateString(undefined, options);
     const [open, setOpen] = useState(false);
+
     return (
         <nav className="bg-white">
             <div>
-                <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto lg:p-4">
+                <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto lg:pt-4">
                     <a href="/" className="lg:flex items-center z-50 hidden">
                         <img src={Logo} alt="" className="w-12 lg:w-20" />
                     </a>
                     <div className="hidden lg:block">
                         <div className="flex items-center justify-center gap-1 mb-2">
                             <WebIcon />
-                            <p className="text-sm ">Thursday, February 25, 2021</p>
+                            <p className="text-sm ">{formattedDate}</p>
                         </div>
                         <h1 className="uppercase text-xl lg:text-[32px] font-bold">Kenya Embassy Berlin</h1>
                     </div>

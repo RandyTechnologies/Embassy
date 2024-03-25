@@ -13,12 +13,12 @@ interface NewsProps {
 
 const News = (props: NewsProps) => {
     return (
-        <div className="flex gap-2 items-start py-4">
+        <div className="flex gap-2 items-start py-4 justify-between">
             <div>
                 <p className="text-md font-bold leading-[120%]">{props.title}...</p>
                 <p className="text-sm text-gray-400">{props.date}</p>
             </div>
-            <img src={props.img} alt="" />
+            <img src={props.img} alt="" className="w-32 h-20 object-cover" />
         </div>
     )
 }

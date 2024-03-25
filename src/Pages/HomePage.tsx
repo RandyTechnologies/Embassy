@@ -26,8 +26,8 @@ const HomePage = () => {
                 </div>
             </section>
             <section className="px-4 py-4 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
-                <div className="grid lg:grid-cols-4 gap-4">
-                    <div className="col-span-3">
+                <div className="grid lg:grid-cols-6 gap-4">
+                    <div className="col-span-4">
                         {/* <div className="">
                             <p className="text-center text-xl font-bold py-4">Tobong'u Lorre! Welcome Home</p>
                             <p className="text-2xl lg:text-[32px] italic text-center">'Kenya is the home of humanity'</p>
@@ -71,7 +71,7 @@ const HomePage = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="border-l pl-4 hidden lg:block">
+                    <div className="border-l pl-4 hidden lg:block col-span-2">
                         <div>
                             <p className="font-bold mb-2 text-[#994F06]">Latest News</p>
                             <NewsComponent />
