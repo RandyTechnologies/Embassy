@@ -10,7 +10,7 @@ export const links = [
                     { name: "Guidelines for Importation of Duty Free Vehicles", link: "/guidelines-for-importation" },
                     { name: "Household Goods and Personal Effects for Returning Residents", link: "/household-goods" },
                     { name: "WIDU Africa Business Grant Opportunity", link: "/business-grant" },
-                    { name: "Kenyan Organisations in Germany", link: "" },
+                    { name: "Kenyan Organisations in Germany", link: "/organizations-in-germany" },
                 ],
             },
             {
