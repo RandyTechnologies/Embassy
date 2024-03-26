@@ -8,7 +8,7 @@ export const links = [
                 sublink: [
                     { name: "Kenya Diaspora Remittances Survey", link: "/kenya-diapora-remittance-survey" },
                     { name: "Guidelines for Importation of Duty Free Vehicles", link: "/guidelines-for-importation" },
-                    { name: "Household Goods and Personal Effects for Returning Residents", link: "" },
+                    { name: "Household Goods and Personal Effects for Returning Residents", link: "/household-goods" },
                     { name: "WIDU Africa Business Grant Opportunity", link: "" },
                     { name: "Kenyan Organisations in Germany", link: "" },
                 ],
