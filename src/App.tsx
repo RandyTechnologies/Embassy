@@ -20,6 +20,7 @@ import PermitsAndPassesPage from './Pages/consular-section/PermitsAndPassesPage'
 import FilmPermitPage from './Pages/consular-section/FilmPermitPage'
 import RepatriationPage from './Pages/consular-section/ RepatriationPage'
 import LegalizationOfDocumentsPage from './Pages/consular-section/LegalizationOfDocumentsPage'
+import KenyaDiasporaRemittancePage from './Pages/kenyans-in-diapora/KenyaDiasporaRemittancePage'
 
 
 function App() {
@@ -59,6 +60,9 @@ function App() {
           <Route path="/film-permit" element={<FilmPermitPage />} />
           <Route path="/repatriation" element={<RepatriationPage />} />
           <Route path="/legal-docs" element={<LegalizationOfDocumentsPage />} />
+
+          {/* Kenyans in Dispora */}
+          <Route path='/kenya-diapora-remittance-survey' element={<KenyaDiasporaRemittancePage />} />
 
         </Routes>
       </BrowserRouter>
