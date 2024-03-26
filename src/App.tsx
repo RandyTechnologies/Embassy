@@ -23,6 +23,7 @@ import LegalizationOfDocumentsPage from './Pages/consular-section/LegalizationOf
 import KenyaDiasporaRemittancePage from './Pages/kenyans-in-diapora/KenyaDiasporaRemittancePage'
 import GuidelinesForImportationPage from './Pages/kenyans-in-diapora/GuidelinesForImportationPage'
 import HouseholdGoods from './Pages/kenyans-in-diapora/HouseholdGoods'
+import { BusinessGrantPage } from './Pages/kenyans-in-diapora/BusinessGrantPage'
 
 
 function App() {
@@ -67,6 +68,7 @@ function App() {
           <Route path='/kenya-diapora-remittance-survey' element={<KenyaDiasporaRemittancePage />} />
           <Route path='/guidelines-for-importation' element={<GuidelinesForImportationPage />} />
           <Route path='/household-goods' element={<HouseholdGoods />} />
+          <Route path='/business-grant' element={<BusinessGrantPage />} />
 
         </Routes>
       </BrowserRouter>
