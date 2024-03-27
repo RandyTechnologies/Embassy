@@ -16,39 +16,39 @@ const ExportProducts = () => {
                 <p className="my-4 font-bold">
                     KENYA’S EXPORT PRODUCTS
                 </p>
-                <p className="font-bold mb-4">Tea</p>
-                <p className="mb-4">
+                <p className="font-bold mb-4">TEA</p>
+                <p className="mb-2">
                     Tea is Kenya's top foreign exchange earner, bringing in more than €1 billion (Sh100 billion) every year. The tea industry in Kenya contributes 4% to Kenya's Gross Domestic Product (GDP) and accounts for 26% of foreign exchange earnings.
                 </p>
-                <p className="mb-4">
+                <p className="mb-2">
                     For more information on Kenya's tea industry, please visit the following websites:
                 </p>
-                <p className="mb-4">
+                <p className="mb-2">
                     The Tea Directorate - <a href="http://www.ktdateas.com/" className="hover:underline text-[#994F06]">www.teaboard.or.ke</a>
                 </p>
-                <p className="mb-4">
+                <p className="mb-2">
                     The Tea Research Foundation  -www.tearesearch.or.ke
                 </p>
-                <p className="font-bold my-4">FLOWERS</p>
-                <p className="mb-4">
+                <p className="font-bold mt-4">FLOWERS</p>
+                <p className="mb-2">
                     Kenya exports more than 130,000 tonnes of flowers, bringing in around €500 million (Sh50 billion) in revenue annually. The country has 2,700 acres of land under flower farming
                 </p>
-                <p className="mb-4">
+                <p className="mb-2">
                     For more information on Kenya's flower industry, please visit the following websites:
                 </p>
-                <p className="mb-4">
+                <p className="mb-2">
                     Horticultural Crops Directorate - www.agricultureauthority.go.ke
                 </p>
-                <p className="mb-4">Kenya Flower Council - <a href="http://www.kenyaflowercouncil.org/" className="hover:underline text-[#994F06]">www.kenyaflowercouncil.org</a></p>
+                <p className="mb-2">Kenya Flower Council - <a href="http://www.kenyaflowercouncil.org/" className="hover:underline text-[#994F06]">www.kenyaflowercouncil.org</a></p>
 
-                <p className="font-bold my-4">FLOWERS</p>
-                <p className="mb-4">
+                <p className="font-bold mt-4">COFFEE</p>
+                <p className="mb-2">
                     Coffee fetches around €220 million (Sh22 billion) annually.
                 </p>
-                <p className="mb-4">
+                <p className="mb-2">
                     For more information on Kenya's coffee industry, please visit the following website:
                 </p>
-                <p className="mb-4">
+                <p className="mb-2">
                     The Coffee Directorate - www.codf.co.ke
                 </p>
             </div>

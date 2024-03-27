@@ -27,6 +27,8 @@ import { BusinessGrantPage } from './Pages/kenyans-in-diapora/BusinessGrantPage'
 import KenyanOrganizationInGermanyPage from './Pages/kenyans-in-diapora/KenyanOrganizationInGermanyPage'
 import OverviewPage from './Pages/commercial-section/OverviewPage'
 import TradeRelationsPage from './Pages/commercial-section/TradeRelationsPage'
+import ExportProducts from './Pages/commercial-section/ExportProducts'
+import InvestmentOpportunityPage from './Pages/commercial-section/InvestmentOpportunityPage'
 
 
 function App() {
@@ -77,6 +79,8 @@ function App() {
           {/* Commercial Section */}
           <Route path='/overview' element={<OverviewPage />} />
           <Route path='/trade-relations' element={<TradeRelationsPage />} />
+          <Route path='/export-products' element={<ExportProducts />} />
+          <Route path='/investment' element={<InvestmentOpportunityPage />} />
 
         </Routes>
       </BrowserRouter>
