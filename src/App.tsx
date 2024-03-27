@@ -25,6 +25,8 @@ import GuidelinesForImportationPage from './Pages/kenyans-in-diapora/GuidelinesF
 import HouseholdGoods from './Pages/kenyans-in-diapora/HouseholdGoods'
 import { BusinessGrantPage } from './Pages/kenyans-in-diapora/BusinessGrantPage'
 import KenyanOrganizationInGermanyPage from './Pages/kenyans-in-diapora/KenyanOrganizationInGermanyPage'
+import OverviewPage from './Pages/commercial-section/OverviewPage'
+import TradeRelationsPage from './Pages/commercial-section/TradeRelationsPage'
 
 
 function App() {
@@ -71,6 +73,10 @@ function App() {
           <Route path='/household-goods' element={<HouseholdGoods />} />
           <Route path='/business-grant' element={<BusinessGrantPage />} />
           <Route path='/organizations-in-germany' element={<KenyanOrganizationInGermanyPage />} />
+
+          {/* Commercial Section */}
+          <Route path='/overview' element={<OverviewPage />} />
+          <Route path='/trade-relations' element={<TradeRelationsPage />} />
 
         </Routes>
       </BrowserRouter>

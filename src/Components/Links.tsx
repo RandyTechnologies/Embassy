@@ -16,8 +16,8 @@ export const links = [
             {
                 Head: "Commercial Section",
                 sublink: [
-                    { name: "Overview of Kenya's Economic Agenda", link: "" },
-                    { name: "Kenya-Germany Trade Relations", link: "" },
+                    { name: "Overview of Kenya's Economic Agenda", link: "/overview" },
+                    { name: "Kenya-Germany Trade Relations", link: "/trade-relations" },
                     { name: "Export Products", link: "" },
                     { name: "Investment Opportunities", link: "" },
                 ],
