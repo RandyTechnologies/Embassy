@@ -37,6 +37,8 @@ import CapitalTourismResourcesPage from './Pages/Tourism/CapitalTourismResources
 import TouristCustomerProfilePage from './Pages/Tourism/TouristCustomerProfilePage'
 import GeographicalOriginPage from './Pages/Tourism/GeographicalOriginPage'
 import TopicalIssuesPage from './Pages/Tourism/TopicalIssuesPage'
+import TravelToKenyaPage from './Pages/travel-information/TravelToKenyaPage'
+import PublicHolidays from './Pages/travel-information/PublicHolidays'
 
 
 function App() {
@@ -99,6 +101,10 @@ function App() {
           <Route path='/tourist-customer-profile' element={<TouristCustomerProfilePage />} />
           <Route path='/geographical-origin' element={<GeographicalOriginPage />} />
           <Route path='/topical-issues' element={<TopicalIssuesPage />} />
+
+          {/* Travel Information */}
+          <Route path='/travel-to-kenya' element={<TravelToKenyaPage />} />
+          <Route path='/public-holidays' element={<PublicHolidays />} />
 
         </Routes>
       </BrowserRouter>

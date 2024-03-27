@@ -39,8 +39,8 @@ export const links = [
             {
                 Head: "Travel Information for Kenya",
                 sublink: [
-                    { name: "Travel Information for Kenya", link: "" },
-                    { name: "Public Holidays in Kenya", link: "" },
+                    { name: "Travel Information for Kenya", link: "/travel-to-kenya" },
+                    { name: "Public Holidays in Kenya", link: "/public-holidays" },
                 ],
             },
             {
