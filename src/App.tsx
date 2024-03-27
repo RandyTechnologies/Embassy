@@ -29,6 +29,14 @@ import OverviewPage from './Pages/commercial-section/OverviewPage'
 import TradeRelationsPage from './Pages/commercial-section/TradeRelationsPage'
 import ExportProducts from './Pages/commercial-section/ExportProducts'
 import InvestmentOpportunityPage from './Pages/commercial-section/InvestmentOpportunityPage'
+import TourismResourcesPage from './Pages/Tourism/TourismResourcesPage'
+import NaturalTourismResourcesPage from './Pages/Tourism/NaturalTourismResourcesPage'
+import CulturalTourismResourcesPage from './Pages/Tourism/CulturalTourismResourcesPage'
+import HumanTourismResourcesPage from './Pages/Tourism/HumanTourismResourcesPage'
+import CapitalTourismResourcesPage from './Pages/Tourism/CapitalTourismResourcesPage'
+import TouristCustomerProfilePage from './Pages/Tourism/TouristCustomerProfilePage'
+import GeographicalOriginPage from './Pages/Tourism/GeographicalOriginPage'
+import TopicalIssuesPage from './Pages/Tourism/TopicalIssuesPage'
 
 
 function App() {
@@ -81,6 +89,16 @@ function App() {
           <Route path='/trade-relations' element={<TradeRelationsPage />} />
           <Route path='/export-products' element={<ExportProducts />} />
           <Route path='/investment' element={<InvestmentOpportunityPage />} />
+
+          {/* Tourism */}
+          <Route path='/tourism-resources' element={<TourismResourcesPage />} />
+          <Route path='/natural-resources' element={<NaturalTourismResourcesPage />} />
+          <Route path='/cultural-resources' element={<CulturalTourismResourcesPage />} />
+          <Route path='/human-resources' element={<HumanTourismResourcesPage />} />
+          <Route path='/capital-resources' element={<CapitalTourismResourcesPage />} />
+          <Route path='/tourist-customer-profile' element={<TouristCustomerProfilePage />} />
+          <Route path='/geographical-origin' element={<GeographicalOriginPage />} />
+          <Route path='/topical-issues' element={<TopicalIssuesPage />} />
 
         </Routes>
       </BrowserRouter>

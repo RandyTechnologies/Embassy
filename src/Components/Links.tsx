@@ -25,14 +25,14 @@ export const links = [
             {
                 Head: "Tourism",
                 sublink: [
-                    { name: "Tourism Resources", link: "" },
-                    { name: "Natural Tourism Resources", link: "" },
-                    { name: "Cultural Tourism Resources", link: "" },
-                    { name: "Human Tourism Resources", link: "" },
-                    { name: "Capital Tourism Resources", link: "" },
-                    { name: "Tourist Customer Profile", link: "" },
-                    { name: "Geographical Origin of Tourists to Kenya", link: "" },
-                    { name: "Topical Issues of Concern to Tourists", link: "" },
+                    { name: "Tourism Resources", link: "/tourism-resources" },
+                    { name: "Natural Tourism Resources", link: "/natural-resources" },
+                    { name: "Cultural Tourism Resources", link: "/cultural-resources" },
+                    { name: "Human Tourism Resources", link: "/human-resources" },
+                    { name: "Capital Tourism Resources", link: "/capital-resources" },
+                    { name: "Tourist Customer Profile", link: "/tourist-customer-profile" },
+                    { name: "Geographical Origin of Tourists to Kenya", link: "/geographical-origin" },
+                    { name: "Topical Issues of Concern to Tourists", link: "/topical-issues" },
                 ],
             },
 
