@@ -39,6 +39,7 @@ import GeographicalOriginPage from './Pages/Tourism/GeographicalOriginPage'
 import TopicalIssuesPage from './Pages/Tourism/TopicalIssuesPage'
 import TravelToKenyaPage from './Pages/travel-information/TravelToKenyaPage'
 import PublicHolidays from './Pages/travel-information/PublicHolidays'
+import ContactPage from './Pages/ContactPage'
 
 
 function App() {
@@ -48,6 +49,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<HomePage />} />
+          <Route path="/contact" element={<ContactPage />} />
           {/* About Links */}
           <Route path="/history" element={<HistoryPage />} />
           <Route path="/geography" element={<GeographyPage />} />

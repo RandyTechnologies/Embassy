@@ -52,7 +52,7 @@ export const links = [
             {
                 Head: "Contact",
                 sublink: [
-                    { name: "Contact", link: "" },
+                    { name: "Contact", link: "/contact" },
                 ],
             },
         ],
