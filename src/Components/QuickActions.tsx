@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 import Icon from "../assets/images/kenya_round_icon_640.png"
 interface QuickActionsProps {
     image: string,
@@ -7,10 +8,13 @@ interface QuickActionsProps {
 
 const QuickActions = (props: QuickActionsProps) => {
     return (
-        <div className="font-bold py-4 px-6 border flex items-center">
-            <img src={props.image} alt="" className="w-16" />
-            <a href={props.link} className="hover:underline">{props.title}</a>
-        </div>
+        <Link to={props.link}>
+            <div className="font-bold py-4 px-6 border flex items-center">
+                <img src={props.image} alt="" className="w-16" />
+                <p className="hover:underline">{props.title}</p>
+            </div>
+        </Link>
+
     )
 }
 
