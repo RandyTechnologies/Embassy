@@ -14,7 +14,7 @@ const ForeignAffairsPage = () => {
                 </div>
             </div>
             <div className="px-4 py-4 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-8">
-                <p className="mb-4 font-bold">Function</p>
+                <p className="mb-4 font-bold">Functions</p>
                 <div className="mb-4">
                     <li>Management of Kenya's Foreign Policy</li>
                     <li>Management of Bilateral and Multilateral Relations</li>
