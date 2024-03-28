@@ -40,6 +40,7 @@ import TopicalIssuesPage from './Pages/Tourism/TopicalIssuesPage'
 import TravelToKenyaPage from './Pages/travel-information/TravelToKenyaPage'
 import PublicHolidays from './Pages/travel-information/PublicHolidays'
 import ContactPage from './Pages/ContactPage'
+import ForeignAffairsPage from './Pages/qiuck-access/ForeignAffairsPage'
 
 
 function App() {
@@ -107,6 +108,10 @@ function App() {
           {/* Travel Information */}
           <Route path='/travel-to-kenya' element={<TravelToKenyaPage />} />
           <Route path='/public-holidays' element={<PublicHolidays />} />
+
+          {/* Quick Access */}
+          <Route path='/foreign-affairs' element={<ForeignAffairsPage />} />
+
 
         </Routes>
       </BrowserRouter>

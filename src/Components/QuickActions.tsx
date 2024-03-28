@@ -22,7 +22,7 @@ export const QuickActionsComponent = () => {
     return (
         <div className="pb-16 lg:pt-8">
             <div className="grid lg:grid-cols-2 lg:gap-4 gap-2">
-                <QuickActions image={Icon} title={"Ministry of Foreign Affairs"} link={""} />
+                <QuickActions image={Icon} title={"Ministry of Foreign Affairs"} link={"/foreign-affairs"} />
                 <QuickActions image={Icon} title={"Doing Business with Kenya"} link={""} />
                 <QuickActions image={Icon} title={"Epassport Application"} link={""} />
                 <QuickActions image={Icon} title={"Application Downloads"} link={""} />
