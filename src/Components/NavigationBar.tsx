@@ -28,7 +28,9 @@ export const NavBar = () => {
                     </div>
                     <div>
                         <div className="hidden lg:block">
-                            <a href="/contact" className="px-6 py-2 bg-[#994F06] text-white rounded-full">Contact Us</a>
+                            <Link to="/contact">
+                                <p className="px-6 py-2 bg-[#994F06] text-white rounded-full">Contact Us</p>
+                            </Link>
                         </div>
                     </div>
                     <div className="md:hidden z-50 p-5 md:w-auto w-full flex justify-between">
